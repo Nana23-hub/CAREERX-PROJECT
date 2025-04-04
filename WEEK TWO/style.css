@@ -1,0 +1,110 @@
+/* CSS Document */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+} 
+
+nav {
+    background-color: #0e8225;
+    padding: 10px;
+}
+ul li{
+    display: inline-block;
+    margin-left: 15px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+nav .logo{
+    width: 50px;
+
+}
+nav ul{
+    display: inline-block;
+}
+.main-content{
+    border: 2px solid green;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #330a0a;
+}
+.main-image{
+    width: 100%;
+    display: inline-block;
+}
+.mini-image{
+    width: 100%;
+    margin-top: 10px;
+    display: inline-block;
+}
+.main-content #title{
+    color: #1adbd5;
+    font-size: 30px;
+    font-weight: 700;
+}
+.main-content #p1{
+    color: #c5269d;
+    font-size: 20px;
+    font-weight: 500;
+}
+#btn1{
+    background-color: #0e8225;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.main-content-two{
+    border: 2px solid green;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: sandybrown;
+}
+.main-content-two #title2{
+    color: #914313;
+    font-size: 30px;
+    font-weight: 700;
+}
+.main-content-two #p2{
+    color: #bbd814;
+    font-size: 10px;
+    font-weight: 500;
+}
+#btn2{
+    background-color: #5d06a9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.main-content-three{
+    border: 2px solid green;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: black;
+}
+.main-content-three #title3{
+    color: #300fd6;
+    font-size: 30px;
+    font-weight: 700;
+}
+.main-content-three #p3{
+    color: #11cf90;
+    font-size: 15px;
+    font-weight: 700;
+}
+#btn3{
+    background-color: #d80f44;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
