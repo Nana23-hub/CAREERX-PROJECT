@@ -62,6 +62,7 @@ const favoriteFood = ["Jollof Rice", "Pasta", "Pizza", "Fried Rice", "Egusi Soup
 console.log("first food",favoriteFood[0] ); // display the first array
 console.log("last food", favoriteFood[4] ); // display the last array
 
+
 console.log(favoriteFood.unshift("Beans and bread")); // add an item to the beginning of the array
 console.log(favoriteFood.push("Efo Riro and Pounded Yam")); // add an item to the end of the array
 console.log(favoriteFood); // display the updated array
@@ -72,3 +73,116 @@ const jssThree = ["Ayoola", "olabosi", "Olalekan", "lateef", "Yusuf", "Kikky", "
 console.log(jssOne);
 console.log(jssTwo);
 console.log(jssThree);
+
+
+
+
+
+
+
+
+//control flows(loops)
+//while loop
+//for loop
+//1. when you want it to start.
+//2. when you want it to end.
+//3. how you want it to increment or decrement.
+
+let i = 0; // initialization
+
+
+//WEEK FOUR  ASSIGNMENT
+const score = 180; // score of the student
+
+if( score >= 180 && score <= 200) { 
+    console.log("Passed");
+}
+else {
+    console.log("Failed"); 
+}
+
+const my_age = 18;
+
+if( my_age == 18 || my_age >= 18) {
+    console.log("You are eligible to vote.");
+}
+ else {
+    console.log("You are not eligible to vote.");
+}
+
+const my_name = "Ayoola";
+const my_score = 90;
+
+if( my_score >= 90) {
+    console.log("Exellent");
+}
+else if( my_score >=75){
+    console.log("Good");
+}
+else if( my_score >= 50){
+    console.log("Average");
+}
+else {
+    console.log("Fail");
+}
+
+const hasID = true;
+const isAbove18 = true;
+
+if( hasID && isAbove18) {
+    console.log("Access Granted");
+}
+else {
+    console.log("Access Denied");
+}
+
+let scores = [90, 85, 78, 92, 88, 59];
+
+for (let i = 0; i< scores.length; i++){
+    if (scores[i] > 50){
+        console.log("Pass");
+    } else{
+        console.log("Fail");
+    }
+}
+ const math = 50;
+ const english = 50;
+
+ const calculateGrade = (math, english) =>{
+    if (math && english >= 50){
+        console.log("Yes");
+    } else{
+        console.log("No");
+    }
+ }
+    calculateGrade(math, english);
+
+    const email = "aishet123@gmail.com";
+    const password = "12345678";
+
+    if(email && password){
+        console.log("Login Successful");
+    }
+    else{
+        console.log("Login Failed");
+    }
+
+    const userName = "";
+    const password_me = "";
+
+    if (userName == "" || password_me == ""){
+        console.log("Invalid Input");
+    } else{
+        console.log("Valid Input");
+    }
+
+    const hoursWorked = (hours) => hours >= 40 ? "Full-time" : "Part-time";
+    console.log(hoursWorked(45)); // Full-time
+    console.log(hoursWorked(20)); // Part-time
+    
+    const isNumber = (number1, number2) => {
+        return number1 + number2
+
+    }
+    console.log(isNumber(5, 10)); // 15
+
